@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="cergyni, cv, it">
+    <meta name="description" content="Site of cergyni's resume ">
+    <title>Cergyni Resume</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="info">   
+            <img src="images/photo.jpg" alt="This is a photo of Cergyni" width="400" class="image">
+            <div class="info-text">
+                <div class="text-about">
+                    <h1>Сергей</h1>
+                    
+                    <p>Я будущий специалист в области HTMl & CSS, и эта работа фундаментальна для будущих знаний.</p>
+                    
+                    <p>Я любою заниматься спортом и саморазвитием.</p>
+                    
+                    <h4>Список социальных сетей:</h4>
+                    
+                    <a href="https://google.com" target="_blank">Instagram</a> 
+                    |
+                    <a href="https://google.com" target="_blank">Telegram</a> 
+                    |
+                    <a href="https://google.com" target="_blank">VK</a>
+                    
+                </div>
+            </div>
+            <div class="card dg-red">
+                <h2>Список хобби:</h2>
+                <ol class="hobbies">
+                    <li>Спорт</li>
+                    <li>Знакомство с иновационными технологиями</li>
+                    <li>Автомобильный мир</li>
+                </ol>
+            </div>
+        </div>
+        <div class="card dg-green">
+            <h2>Опыт работы</h2>
+            <table class="work-exp">
+                <!-- <thead>
+                    <tr>
+                        <th>Название фирмы</th>
+                        <th>Должность</th>
+                        <th>Год</th>
+                    </tr>
+                </thead> -->
+                <tbody>
+                    <tr>
+                        <td>Такси-пратто</td>
+                        <td>Водитель</td>
+                        <td>2018-2019</td>
+                    </tr>
+                    <tr>
+                        <td>12devs</td>
+                        <td>Скрипт-инженер</td>
+                        <td>2019-2020</td>
+                    </tr>
+                    <tr>
+                        <td>ВС РБ</td>
+                        <td>Прохождение срочной службы</td>
+                        <td>2020-2021</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        
+        <form action="/" class="form">
+            <h2>Связаться со мной:</h2>
+            <div class="form-row">
+                <div class="form-group">
+                    <label for="name">Ваше имя:</label>
+                    <input action="text" id="name" placeholder="Ведите ваше имя"></input>                
+                </div>                
+                <div class="form-group">
+                    <label for="email">Ваш email:</label>
+                    <input action="email" id="email" placeholder="Ведите ваш email"></input>                
+                </div>
+            </div>
+            
+            <div class="form-group">
+                <label for="massege">Ваше сообщение:</label>
+                <textarea id="massege" cols="30" rows="10" placeholder="Введите ваше сообщение..."></textarea>                
+            </div>            
+            <input type="submit" class="btn" value="Отправить">
+        </form>        
+    </div>
+</body>
+
+</html>
